@@ -1,0 +1,26 @@
+{
+  "name": "gatsby-slides",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "gatsby develop",
+    "clean": "gatsby clean",
+    "build": "gatsby build --prefix-paths",
+    "serve": "gatsby serve --prefix-paths",
+    "gh-pages": "npx gh-pages -d public"
+  },
+  "dependencies": {
+    "gatsby": "*",
+    "gatsby-plugin-catch-links": "^2.1.2",
+    "gatsby-theme-mdx-deck": "^3.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-system": "^5.1.4",
+    "@emotion/core": "^10.0.7",
+    "@emotion/styled": "^10.0.7"
+  },
+  "devDependencies": {
+    "mdx-deck": "^3.1.0"
+  }
+}
